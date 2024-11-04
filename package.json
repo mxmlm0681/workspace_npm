@@ -1,0 +1,30 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "\"Browser based game\"",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxmlm0681/workspace_npm.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "mxmlm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mxmlm0681/workspace_npm/issues"
+  },
+  "homepage": "https://github.com/mxmlm0681/workspace_npm#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0"
+  },
+  "dependencies": {
+    "core-js": "^3.39.0"
+  }
+}
